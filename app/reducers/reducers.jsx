@@ -45,6 +45,6 @@ export var todosReducer = (state = [], action) => {
         });
         break;
     default:
-      state;
+      return state;
   };
 } ;
